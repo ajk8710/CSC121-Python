@@ -14,3 +14,6 @@ tip = charge * 0.18
 due = charge + sales_tax + tip
 
 print(f'Total amount due: ${due:.2f}')
+# : introduces the format spec
+# .2 sets the precision to 2
+# f displays the number as a fixed-point notation (opposed to scientific notation)
