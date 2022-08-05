@@ -22,7 +22,7 @@ list1 average: 5.0
 list2 average: 7.0
 """
 
-f = lambda lst: sum(lst) / len(lst)
+avg = lambda lst: sum(lst) / len(lst)
 
-print("list1 average:", f([2, 1, 5, 9, 8]))
-print("list2 average:", f([17, 5, 2, 4]))
+print("list1 average:", avg([2, 1, 5, 9, 8]))
+print("list2 average:", avg([17, 5, 2, 4]))
