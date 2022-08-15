@@ -19,7 +19,6 @@ Do not ask the user to reenter number of hotdogs.
 #             wrong_val = False
 #         except ValueError:
 #             print("Salary must be a numerical.")
-#             wrong_val = True
 
 try:
     hotdogs = int(input('Enter the number of hotdogs: '))

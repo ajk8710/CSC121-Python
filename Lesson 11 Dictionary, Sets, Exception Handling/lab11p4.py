@@ -13,7 +13,6 @@ display an error message and ask the user to reenter it until an integer is ente
 #             wrong_val = False
 #         except ValueError:
 #             print("Salary must be a numerical.")
-#             wrong_val = True
 
 
 # Not really needed, but just to practice propagation of raised exceptions
